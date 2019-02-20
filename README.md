@@ -21,5 +21,7 @@
     -> Activity: Além dos atributos herdados de Production, essa subclasse possui os atributos 'coordenator' do tipo Person e um Array List 'works' do tipo Work. Possui o método 'assignWork' que dado um colaborador que já esteja atribuído à atividade, adiciona um objeto do tipo Work ao Array List 'works', além de implementar o método 'startProduction' com as especificações de uma atividade. 
 
 - Work: Esta classe possui apenas atributos, que são 'id', 'description' e 'responsable' do tipo Person que o responsável pela tarefa e é atribuido no método 'assignWork' da classe Activity.
+#Herança e Abstrata
+Como visto nas descrições das classes do programa, houve o uso de herança e classes abstratas quando verificou-se que era necessário ou positivo, como nas classes Person e Production. 
 #Tratamento de exceção
 Apesar de não estar no diagrama de classes, todas as situações em que podem ocorrer erro de exceção, como input inválido, devem receber tratamento de exceção do tipo "try (...) catch"
